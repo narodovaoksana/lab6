@@ -4,17 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d01722-253f-4657-818d-c9ec0f3d9585" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="47d01722-253f-4657-818d-c9ec0f3d9585" name="Changes" comment="task6">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/task6/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/task6/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/task6/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/task6/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;narodovaoksana&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2bcdaf10-575e-4223-8fe6-1879920516fa" />
+        <option name="url" value="https://github.com/narodovaoksana/lab6.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gScbfJwdrZaoiEvIzVXvuZZO2S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,6 +53,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Smart/OneDrive/Робочий стіл/Studing/java_projects/patterns/lab6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,11 +77,124 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715694495264</updated>
-      <workItem from="1715694496819" duration="21000" />
+      <workItem from="1715694496819" duration="10125000" />
+      <workItem from="1717148371269" duration="1773000" />
     </task>
+    <task id="LOCAL-00001" summary="task1">
+      <option name="closed" value="true" />
+      <created>1715694805460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715694805460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task1_refactored">
+      <option name="closed" value="true" />
+      <created>1715695303173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715695303173</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task2">
+      <option name="closed" value="true" />
+      <created>1715695506907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715695506907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task2_refactored">
+      <option name="closed" value="true" />
+      <created>1715696003802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715696003803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="task3">
+      <option name="closed" value="true" />
+      <created>1715700802043</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715700802044</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task3_refactored">
+      <option name="closed" value="true" />
+      <created>1715703201746</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715703201746</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task4">
+      <option name="closed" value="true" />
+      <created>1715704970868</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715704970868</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task4_refactored">
+      <option name="closed" value="true" />
+      <created>1715706437009</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715706437009</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task5">
+      <option name="closed" value="true" />
+      <created>1715706553675</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715706553675</updated>
+    </task>
+    <task id="LOCAL-00010" summary="moving">
+      <option name="closed" value="true" />
+      <created>1717149552755</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717149552756</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task5  refactored">
+      <option name="closed" value="true" />
+      <created>1717149603029</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717149603029</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task6">
+      <option name="closed" value="true" />
+      <created>1717149868108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717149868110</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task1" />
+    <MESSAGE value="task1_refactored" />
+    <MESSAGE value="task2" />
+    <MESSAGE value="task2_refactored" />
+    <MESSAGE value="task3" />
+    <MESSAGE value="task3_refactored" />
+    <MESSAGE value="task4" />
+    <MESSAGE value="task4_refactored" />
+    <MESSAGE value="task5" />
+    <MESSAGE value="moving" />
+    <MESSAGE value="task5  refactored" />
+    <MESSAGE value="task6" />
+    <option name="LAST_COMMIT_MESSAGE" value="task6" />
   </component>
 </project>
