@@ -1,11 +1,9 @@
-package task5;
+package part1.task5;
 
 public class Employee {
     private String name;
-    private Department department;
     // Конструктор та інші методи класу...
-    public Department getDepartment() {
-        return department;
+    public String getName() {
+        return name;
     }
 }
-

@@ -1,10 +1,10 @@
-package task5;
+package part1.task5;
 
 public class Department {
     private String name;
     private Employee manager;
     // Конструктор та інші методи класу...
-    public Employee getManager() {
-        return manager;
+    public String getManagerName() {
+        return manager.getName();
     }
 }
