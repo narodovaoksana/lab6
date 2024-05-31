@@ -1,11 +1,11 @@
 package part1.task8;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class DateHelper {
-    // Даний клас надає допоміжні функції пов'язані з роботою з датами.
-    public static Date addDays(Date date, int days) {
-        // Логіка додавання днів до дати.
+    public static LocalDate addDays(LocalDate date, int days) {
+        return date.plusDays(days);
     }
-    // Інші методи класу...
+
 }
