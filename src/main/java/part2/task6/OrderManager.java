@@ -1,4 +1,4 @@
-package part2.task5;
+package part2.task6;
 
 public class OrderManager {
     private String customerName;
