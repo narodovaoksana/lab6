@@ -2,20 +2,20 @@ package part3.task3;
 
 public class Order {
     public void processOrder(int quantity, double price) {
+        boolean discountApplied = false;
         if (quantity > 10) {
-            // Дубльований фрагмент
-            applyDiscount();
-            // Операція 1
-        } else {
+            discountApplied = true;
             // Операція 1
         }
         if (price > 100) {
-            // Дубльований фрагмент
-            applyDiscount();
+            discountApplied = true;
             // Операція 2
-        } else {
-            // Операція 2
+        }
+        if (discountApplied) {
+            this.applyDiscount();
         }
     }
 
+    private void applyDiscount() {
+    }
 }
