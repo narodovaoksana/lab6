@@ -1,11 +1,19 @@
 package part2.task12;
 
 public class Product {
-    private int typeCode;
+    private ProductType type;
     private String name;
-    public Product(int typeCode, String name) {
-        this.typeCode = typeCode;
+
+    public Product(ProductType type, String name) {
+        this.type = type;
         this.name = name;
     }
-    // Додаткові методи...
+
+    public ProductType getType() {
+        return type;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
