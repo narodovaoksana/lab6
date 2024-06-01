@@ -1,13 +1,21 @@
 package part2.task14;
 
 public class Order {
-    private int status;
-    public static final int NEW = 0;
-    public static final int PROCESSING = 1;
-    public static final int COMPLETED = 2;
-    public static final int CANCELLED = 3;
+    private OrderStatus status;
+
     public Order() {
-        this.status = NEW;
+        this.status = new NewOrderStatus();
     }
-    // Інші методи класу...
+
+    public void setStatus(OrderStatus status) {
+        this.status = status;
+    }
+
+    public void process() {
+        status.process(this);
+    }
+
+    public void cancel() {
+        status.cancel(this);
+    }
 }
