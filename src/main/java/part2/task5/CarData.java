@@ -1,13 +1,11 @@
 package part2.task5;
 
+import java.util.List;
+
 public class CarData {
-    private String[] carNames;
-    private int[] carPrices;
-    private int[] carYears;
-    public CarData(String[] carNames, int[] carPrices, int[] carYears) {
-        this.carNames = carNames;
-        this.carPrices = carPrices;
-        this.carYears = carYears;
+    private List<Car> cars;
+    public CarData(List<Car> cars) {
+        this.cars = cars;
     }
-    // Додаткові методи для роботи з масивом...
+    // Додаткові методи для роботи з колекцією автомобілів...
 }
