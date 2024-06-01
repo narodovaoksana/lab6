@@ -1,11 +1,19 @@
 package part2.task15;
 
 public class Shape {
-    // Інші поля та методи
-    public double getArea() {
-        return 0; // Заглушка
+    private double areaFormula;
+    private double perimeterFormula;
+
+    public Shape(double areaFormula, double perimeterFormula) {
+        this.areaFormula = areaFormula;
+        this.perimeterFormula = perimeterFormula;
     }
-    public double getPerimeter() {
-        return 0; // Заглушка
+
+    public double getArea(double... args) {
+        return areaFormula;
+    }
+
+    public double getPerimeter(double... args) {
+        return perimeterFormula;
     }
 }
