@@ -1,6 +1,6 @@
 package part5.task9;
 
-class Animal {
+public class Animal {
     private String species;
     public Animal(String species) {
         this.species = species;
@@ -10,5 +10,10 @@ class Animal {
     }
     public void sleep() {
         System.out.println("The animal is sleeping.");
+    }
+    public void bark() {
+        if (species.equals("Dog")) {
+            System.out.println("The dog is barking.");
+        }
     }
 }
