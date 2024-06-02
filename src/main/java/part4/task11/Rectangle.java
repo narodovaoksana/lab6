@@ -17,7 +17,11 @@ public class Rectangle {
         return height;
     }
 
-    public int calculateArea() {
+    private int calculateArea() {
         return width * height;
+    }
+
+    public int getArea() {
+        return calculateArea();
     }
 }
