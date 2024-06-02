@@ -1,8 +1,8 @@
 package part5.task2;
 
 public class Cat extends Animal {
-    public void meow() {
+    @Override
+    public void makeSound() {
         System.out.println("Meow meow!");
     }
 }
-
