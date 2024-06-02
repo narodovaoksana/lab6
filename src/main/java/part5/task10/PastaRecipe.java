@@ -1,12 +1,12 @@
 package part5.task10;
 
-class PastaRecipe extends CookingRecipe {
+public class PastaRecipe extends CookingRecipe {
     @Override
-    public void addIngredients() {
+    protected void addIngredients() {
         System.out.println("Adding pasta");
     }
     @Override
-    public void cook() {
+    protected void cook() {
         System.out.println("Cooking pasta");
     }
 }
