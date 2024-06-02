@@ -1,9 +1,8 @@
 package part5.task12;
 
-class SecurePrinter {
-    private final Printer printer = new Printer();
+public class SecurePrinter extends Printer {
     void printSecurely(String document) {
         System.out.println("Printing securely: " + document);
-        printer.print(document);
+        print(document);
     }
 }
