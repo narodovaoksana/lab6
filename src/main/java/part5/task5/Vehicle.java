@@ -1,6 +1,5 @@
 package part5.task5;
 
-class Vehicle {
+public class Vehicle {
     protected String brand;
-    protected String model;
 }
