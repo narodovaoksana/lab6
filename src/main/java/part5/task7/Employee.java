@@ -1,15 +1,7 @@
 package part5.task7;
 
-class Employee {
-    private String name;
-    private double salary;
+public class Employee extends Person {
     public Employee(String name, double salary) {
-        this.name = name;
-        this.salary = salary;
-    }
-    public void displayDetails() {
-        System.out.println("Name: " + name);
-        System.out.println("Salary: $" + salary);
+        super(name, salary);
     }
 }
-

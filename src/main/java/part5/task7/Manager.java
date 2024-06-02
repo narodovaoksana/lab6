@@ -1,17 +1,16 @@
 package part5.task7;
 
-class Manager {
-    private String name;
-    private double salary;
+public class Manager extends Person {
     private String department;
+
     public Manager(String name, double salary, String department) {
-        this.name = name;
-        this.salary = salary;
+        super(name, salary);
         this.department = department;
     }
+
+    @Override
     public void displayDetails() {
-        System.out.println("Name: " + name);
-        System.out.println("Salary: $" + salary);
+        super.displayDetails();
         System.out.println("Department: " + department);
     }
 }
